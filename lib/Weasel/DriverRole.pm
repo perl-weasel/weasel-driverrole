@@ -281,7 +281,7 @@ sub set_attribute {
 
 DEPRECATED
 
-Please use C<$self->get_attribute('selected')> instead.
+Please use C<< $self->get_attribute('selected') >> instead.
 
 =cut
 
@@ -293,7 +293,7 @@ sub get_selected {
 
 DEPRECATED
 
-Please use C<$self->set_attribute('selected', $value)> instead.
+Please use C<< $self->set_attribute('selected', $value) >> instead.
 
 =cut
 
